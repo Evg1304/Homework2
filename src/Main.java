@@ -30,7 +30,7 @@ public class Main {
         var Breakfast = bananas + milk + iceCream + eggs;
         System.out.println("Вес завтрака: " + Breakfast  + "гр" );
         double Breakfast1 = Breakfast/1000;
-        System.out.println("Вес в кг: " + Breakfast1  + " кг" );
+        System.out.println("Вес в кг: " + Breakfast1  + " кг." );
 
         //Задание 4
         float firstDay = 7000/250;

@@ -9,6 +9,7 @@ public class Main {
 
         double e  = 3.6647;
         float f = 4;
+        char h = 748;
 
         var g = 356;
 
@@ -29,8 +30,8 @@ public class Main {
 
         var Breakfast = bananas + milk + iceCream + eggs;
         System.out.println("Вес завтрака: " + Breakfast  + "гр" );
-        double Breakfast1 = Breakfast/1000;
-        System.out.println("Вес в кг: " + Breakfast1  + " кг" );
+        double Breakfast1 = (double) Breakfast/1000;
+        System.out.println("Вес в кг: " + Breakfast1  + " кг." );
 
         //Задание 4
         float firstDay = 7000/250;
@@ -44,11 +45,11 @@ public class Main {
         var Kristina = 76230*10/100*12;
 
         var Masha1 = Masha/12+ 67760;
-        var Denis1 = Denis/12+ 83690;
+        double Denis1 = (double) Denis/12+ 83690;
         var Kristina1 = Kristina/12+ 76230;
 
         System.out.println("Маша получает: " + Masha1 + " рублей. Годовой доход вырос на: "  + Masha + " рублей. " );
-        System.out.println("Денис получает: " + Denis1 + " рублей. Годовой доход вырос на: " + Denis + " рублей. "  );
+        System.out.println("Денис получает: " + Denis1 + " рублей. Годовой доход вырос на: " + (double)Denis + " рублей. "  );
         System.out.println("Кристина получает: " + Kristina1  + " рублей. Годовой доход вырос на: "   + Kristina + " рублей. "  );
 
 
